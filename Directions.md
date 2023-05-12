@@ -56,5 +56,6 @@ Once uploaded, the sketch will run on the board, cycling the loop function, unti
 
 ## Getting Started with Physical Components 
 ### Physical Component Design
-For the purpose of this Lab, our hardware is designed around the Arduino. Arduino is a user friendly device becasue of all of the design tools that are free to use. A usefull tool is the web-based application TinkerCad. 
+For the purpose of this Lab, our hardware is designed around the Arduino. Arduino is a user friendly device becasue of all of the design tools that are free to use. A usefull tool is the web-based application TinkerCad. It allows users to design and simulate circuits using a virtual breadboard, as well as program and simulate Arduino boards. For an indepth toutorial see [here](https://www.youtube.com/watch?v=Z_D-hXzbY_4). 
+
 
