@@ -64,6 +64,6 @@ For the purpose of this Lab, our hardware is designed around the Arduino. Arduin
  
 ## Getting Started with the Lab 
 ### Hardware
-For the complete block diagram see the Tinkercad diagram 
+For the complete block diagram see the Tinkercad diagram [here](https://www.tinkercad.com/things/djGwU0sTQ8e) or view the circuit diagram in this repository named Diagram.brd or circuit named Circuit.png. 
 
 
