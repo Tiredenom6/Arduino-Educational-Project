@@ -41,6 +41,9 @@ An Arduino is a physical component with different input and output pins. The ana
 
 2) Analog (A) pins, are designed to read analog signals. Analog signals are continuous and can have any value within a range, unlike digital signals which only have two values. These pins can be used to read signals from sensors that output analog voltages or currents, such as temperature sensors or light sensors. They can also be used as pulse width modulation (PWM) outputs, which allow you to create analog-like signals by rapidly turning a digital signal on and off.
 
+3) 5V pins are power pins that output 5V of power.
+
+4) GRND pins are pins that provide a ground. A ground is a sink for electricity to flow to out of a component or circuit. It can also be used as an electrical reference, indicating a voltage with respect to another voltage (most commonly zero). 
 ### Code       
 The basic structure of an Arduino sketch consists of two main functions: setup() and loop(). The setup() function is executed only once when the board starts up or resets, and it is used to initialize variables, set pin modes, and configure the board for operation. The loop() function, on the other hand, is executed repeatedly while the board is powered on, and it is used to implement the main logic of the program.
 
@@ -54,8 +57,13 @@ To upload an Arduino sketch (The Code in the IDE) to an Arduino board, the board
           
 Once uploaded, the sketch will run on the board, cycling the loop function, until the board is reset or powered off.
 
-## Getting Started with Physical Components 
 ### Physical Component Design
+For a complete breakdown of the theory behind the hardware in this lab, view this [report](https://docs.google.com/document/d/e/2PACX-1vS3WdEL-KkDHfYp4SRyXxtGDpL3lxsCchkNDKFCQpd_L3ZP3N8ZAnA95ofz7l73UD2h2FUD6tp4fvtt/pub). 
 For the purpose of this Lab, our hardware is designed around the Arduino. Arduino is a user friendly device becasue of all of the design tools that are free to use. A usefull tool is the web-based application TinkerCad. It allows users to design and simulate circuits using a virtual breadboard, as well as program and simulate Arduino boards. For an indepth toutorial see [here](https://www.youtube.com/watch?v=Z_D-hXzbY_4). 
+ 
+ 
+## Getting Started with the Lab 
+### Hardware
+For the complete block diagram see the Tinkercad diagram 
 
 
