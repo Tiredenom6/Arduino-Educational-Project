@@ -17,6 +17,12 @@ Adding the appropriate libraries for Arduino.
          ezButton is a useful arduino library that allows for simple button mapping using the digial inputs of the pins. 
 
 Adding the appropriate libraries for PyCharm. 
+
+
+## Familiarizing with Arduino
+
+An Arduino is a physical component with different input and output pins. The analog to digital converter pins have the prefix A# while the digital pins have 
+
          
       
 
