@@ -1,11 +1,14 @@
 # Arduino Game Controller Lab Directions
 
+This lab merges software with hardware to create a functioning physical device that recieves input and creates and drives a proccess. In this case, the arduino is recieving input from a series of sensors, converting them into a useable format, and then driving the game inputs based upon a python script. 
+
 ## Required Tools and Hardware
   1)  Arduino board or Arduino knock-off (i.e. Weemos). A cheaper model board can be found at the following link,
           [ELEGOO UNO R3 Board](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=asc_df_B01EWOE0UU/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=3132673754217622362&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003488&hvtargid=pla-455309014075&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=3132673754217622362&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003488&hvtargid=pla-455309014075).
   2)  Install and setup PyCharm the Python IDE. This can be found at the following link, [PyCharm](https://www.jetbrains.com/pycharm/).
   3)  Install the Arduino IDE. This can be found here [Arduino](https://www.arduino.cc/en/software).
-
+  4)  Two Joystick Potentiometers or two potentiometers.
+  5)  Four Buttons.  
 ## Inital Setup 
 
 Adding the appropriate libraries for Arduino. 
@@ -47,8 +50,11 @@ Arduino code functions just as c++ does meaning the use of conditionals and loop
 To upload an Arduino sketch (The Code in the IDE) to an Arduino board, the board must be connected to the computer via a USB cable. When your code is written you can follow these steps,
 
           1) Verify your code. This will tell you if you have made any mistakes in your arduino code. To do this, click on the big check mark in the top left hand corner. 
-          2) After the code is verified without issues, click on the 
-          3)
+          2) After the code is verified without issues, clicking on the arrow besides it will upload the code to the arduino. 
+          
+Once uploaded, the sketch will run on the board, cycling the loop function, until the board is reset or powered off.
 
+## Getting Started with Physical Components 
+### Physical Component Design
+For the purpose of this Lab, our hardware is designed around the Arduino. Arduino is a user friendly device becasue of all of the design tools that are free to use. A usefull tool is the web-based application TinkerCad. 
 
-Once uploaded, the sketch will run on the board until the board is reset or powered off.
