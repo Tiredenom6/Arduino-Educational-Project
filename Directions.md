@@ -18,6 +18,14 @@ Adding the appropriate libraries for Arduino.
 
 Adding the appropriate libraries for PyCharm. 
 
+          1) Open PyCharm IDE and open the project.
+          2) Navigate to the bottom of the IDE and click on the Python Packages tab.
+          3) In the search bar search for pyserial, pydirectinput, and pyautogui.
+          4) For each of the libaries click install and wait for them to download.
+          5) In the code, in the pycharm IDE, if the libary is not properly installed the name of the libary wil be highlighted in red.
+          6) If there are any issues the following is a link to the Jetbarins guide to libary installation.
+          https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html
+
 
 ## Familiarizing with Arduino
 ### Introduction 
@@ -37,8 +45,9 @@ Arduino code functions just as c++ does meaning the use of conditionals and loop
 
 ### Implementing Code on an Arduino 
 To upload an Arduino sketch (The Code in the IDE) to an Arduino board, the board must be connected to the computer via a USB cable. When your code is written you can follow these steps,
-          1) Verify your code. This will tell you if you have made any mistakes in your arduino code
-          2) 
+
+          1) Verify your code. This will tell you if you have made any mistakes in your arduino code. To do this, click on the big check mark in the top left hand corner. 
+          2) After the code is verified without issues, click on the 
           3)
 
 
