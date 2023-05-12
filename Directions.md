@@ -63,7 +63,46 @@ For the purpose of this Lab, our hardware is designed around the Arduino. Arduin
  
  
 ## Getting Started with the Lab 
-### Hardware
-For the complete block diagram see the Tinkercad diagram [here](https://www.tinkercad.com/things/djGwU0sTQ8e) or view the circuit diagram in this repository named Diagram.brd or circuit named Circuit.png. 
+### Hardware Documentation and Diagrams
+For the complete block diagram see the Tinkercad diagram [here](https://www.tinkercad.com/things/djGwU0sTQ8e) or view the circuit diagram in this repository named Diagram.brd or circuit named Circuit.png.
+
+Arduino Joysticks have five pins. In this Lab you use two joysticks, so there are ten pins to worry about. 
+      
+          1) GND - Ground Pin
+          2) +5V - 5 Volts Pin
+          3) VRX - X direction analog output
+          4) VRY - Y direction analog output
+          5) SW  - Joystick switch 
+          
+### Setting up your Circuit
+The Joysticks are set up as follows, 
+
+1) Attach your VRX pin to the arduino pin A4.
+2) Attach your VRy pin to the arduino pin A5.
+3) Attach your VRX pin of your second joystick to the arduino pin A2.
+4) Attach your VRY pin of your second joystick to the arduino pin A3.
+
+Next you will need to apply a ground and power to both of your ground and 5V pins for the joysticks. This can be done by using the breadboard channels. For a guide on this see [here](https://www.youtube.com/watch?v=SVMKtyjULdk). 
+
+The SW pin for joystick 1 will go to the digital pin 3 and the SW pin for joystick 2 will go to digital pin 2.
+
+The buttons are setup a follows, 
+1) Button one has one leg connected to digital pin D5 and another to ground.
+2) Button two has one leg connected to digital pin D5 and another to ground.
+3) Button three has one leg connected to digital pin D5 and another to ground.
+
+### Code Setup 
+After setting up your circuit follow these directions to see the lab in action, 
+
+        1) Open the code named JOY in the Arduino IDE. It can be found in this github repository and downloaded. 
+        2) Next verify using the checkmark button previously mentioned and upload the code using the arrow button to the Arduino. 
+        3) Next open the PyCharm code name pycode in the PyCharm IDE. This code can be found in this repository named PIERUN.
+        4) WARNING - The inputs of this program are mapped to keys on your keyboard, be sure to have important windows closed!.
+        5) In the top left click on the green play button to run you python code and see results. 
+
+Open a game and see the fruits of your labor using the controller you made!
+          
+
+
 
 
