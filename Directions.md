@@ -1,12 +1,12 @@
 # Arduino Game Controller Lab Directions
 
-### Required Tools and Hardware
+## Required Tools and Hardware
   1)  Arduino board or Arduino knock-off (i.e. Weemos). A cheaper model board can be found at the following link,
           [ELEGOO UNO R3 Board](https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=asc_df_B01EWOE0UU/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=3132673754217622362&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003488&hvtargid=pla-455309014075&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=&hvnetw=g&hvrand=3132673754217622362&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003488&hvtargid=pla-455309014075).
   2)  Install and setup PyCharm the Python IDE. This can be found at the following link, [PyCharm](https://www.jetbrains.com/pycharm/).
   3)  Install the Arduino IDE. This can be found here [Arduino](https://www.arduino.cc/en/software).
 
-### Inital Setup 
+## Inital Setup 
 
 Adding the appropriate libraries for Arduino. 
 
@@ -20,6 +20,8 @@ Adding the appropriate libraries for PyCharm.
 
 
 ## Familiarizing with Arduino
+### Introduction 
+Arduino code, also known as sketch, is written in the Arduino Integrated Development Environment (IDE), which is a software tool that provides a simplified and easy-to-use interface for programming Arduino boards. The Arduino code is written in the language C++ with some simplifications to make it simpler. Arduino is compeletly open source with extreme amounts of documentation on every faset of its structure. 
 
 ### Pin Types 
 An Arduino is a physical component with different input and output pins. The analog to digital converter pins have the prefix A# while the digital pins have the prefix D#. When coding in arduino it is important to know which pins you will be working with. The difference is as follows, 
@@ -28,9 +30,16 @@ An Arduino is a physical component with different input and output pins. The ana
 
 2) Analog (A) pins, are designed to read analog signals. Analog signals are continuous and can have any value within a range, unlike digital signals which only have two values. These pins can be used to read signals from sensors that output analog voltages or currents, such as temperature sensors or light sensors. They can also be used as pulse width modulation (PWM) outputs, which allow you to create analog-like signals by rapidly turning a digital signal on and off.
 
+### Code       
+The basic structure of an Arduino sketch consists of two main functions: setup() and loop(). The setup() function is executed only once when the board starts up or resets, and it is used to initialize variables, set pin modes, and configure the board for operation. The loop() function, on the other hand, is executed repeatedly while the board is powered on, and it is used to implement the main logic of the program.
 
-         
-      
+Arduino code functions just as c++ does meaning the use of conditionals and loops is possible. Conditionals like if-else statements can be used to execute different blocks of code based on the value of a variable or a sensor input. Loops like for and while loops can be used to execute a block of code multiple times.
+
+### Implementing Code on an Arduino 
+To upload an Arduino sketch (The Code in the IDE) to an Arduino board, the board must be connected to the computer via a USB cable. When your code is written you can follow these steps,
+          1) Verify your code. This will tell you if you have made any mistakes in your arduino code
+          2) 
+          3)
 
 
-
+Once uploaded, the sketch will run on the board until the board is reset or powered off.
