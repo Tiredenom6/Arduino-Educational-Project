@@ -1,4 +1,4 @@
-# CPE-555
+# Final Project for CPE-555
 ### This is an Educational Project using Arduino, PyCharm, PySerial, PyInput, Potentiometers, Buttons
 
 ### To get started, use the Directions.md file.
